@@ -1,0 +1,30 @@
+{
+  "name": "graphql-book-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkabelomoobi/graphql-book-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/iamkabelomoobi/graphql-book-api/issues"
+  },
+  "homepage": "https://github.com/iamkabelomoobi/graphql-book-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "dotenv": "^17.2.3",
+    "graphql": "^16.11.0",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
