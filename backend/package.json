@@ -1,24 +1,26 @@
 {
-  "name": "graphql-book-api",
+  "name": "graphql-book",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon src/main.js"
+    "dev": "nodemon src/main.js",
+    "db:seed": "node src/seed/seeder.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamkabelomoobi/graphql-book-api.git"
+    "url": "git+https://github.com/iamkabelomoobi/graphql-book.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/iamkabelomoobi/graphql-book-api/issues"
+    "url": "https://github.com/iamkabelomoobi/graphql-book/issues"
   },
-  "homepage": "https://github.com/iamkabelomoobi/graphql-book-api#readme",
+  "homepage": "https://github.com/iamkabelomoobi/graphql-book#readme",
   "dependencies": {
+    "@faker-js/faker": "^10.1.0",
     "apollo-server": "^3.13.0",
     "dotenv": "^17.2.3",
     "graphql": "^16.11.0",
